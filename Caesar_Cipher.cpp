@@ -82,7 +82,7 @@ std::string to_code(std::string str)
 		else if (str[i] >='0' && str[i] < '3'){
 			str[i] += ('9' - '3' + 1);
 		}
-		else if (str[i] >='A' && str[i] < 'D' || str[i] >= 'a' && str[i] <='d'){
+		else if (str[i] >='A' && str[i] <='D' || str[i] >= 'a' && str[i] <='d'){
 			str[i] += ('Z' - 'D' + 1);
 		}
 	}
